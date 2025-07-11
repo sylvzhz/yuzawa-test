@@ -1,5 +1,5 @@
 {
-    "name": "ROB",
+    "name": "",
     "description": "Reorder Buffer that buffers memory requests and ensures ordering",
     "ports": [
       { "name": "Top" },
