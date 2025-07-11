@@ -4,6 +4,7 @@ import "github.com/sarchlab/akita/v4/sim"
 
 type Builder struct {
 	Engine sim.Engine
+	Freq   sim.Freq
 }
 
 func MakeBuilder() Builder {
@@ -12,6 +13,11 @@ func MakeBuilder() Builder {
 
 func (b Builder) WithEngine(engine sim.Engine) Builder {
 	b.Engine = engine
+	return b
+}
+
+func (b Builder) WithFreq(freq sim.Freq) Builder {
+	b.Freq = freq
 	return b
 }
 
