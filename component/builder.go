@@ -2,10 +2,10 @@ package ping
 
 import "github.com/sarchlab/akita/v4/sim"
 
-// type Builder struct {
-// 	Engine sim.Engine
-// 	Freq   sim.Freq
-// }
+type Builder struct {
+	Engine sim.Engine
+	Freq   sim.Freq
+}
 
 func MakeBuilder() Builder {
 	return Builder{}
