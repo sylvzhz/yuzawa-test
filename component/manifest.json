@@ -1,7 +1,7 @@
 {
-    "name": "",
+    "name": "new",
     "description": "Reorder Buffer that buffers memory requests and ensures ordering",
-    "": [
+    "ports": [
       { "name": "Top" },
       { "name": "Bottom" },
       { "name": "Control" }
